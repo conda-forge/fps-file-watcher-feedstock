@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.1.6"
 
 package:
   name: fps-file-watcher
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fps-file-watcher/fps_file_watcher-${{ version }}.tar.gz
-  sha256: ebd0ed2a80938e30f37ba0396ee310e5dac3cac0c067ce05f48fbfbf96a21092
+  sha256: 2f3c70b43af24c36420c893ce6e8230ae4a4757748a6c60963fe8838b77a1ad0
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - watchfiles >=1.0.4,<2.0.0
-    - jupyverse-api >=0.12.0,<0.13.0
+    - jupyverse-api >=0.13.0,<0.14.0
 
 tests:
   - python:
