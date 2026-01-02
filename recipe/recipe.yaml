@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - watchfiles >=1.0.4,<2.0.0
-    - jupyverse-api >=0.12.0,<0.13.0
+    - jupyverse-api >=0.13.0,<0.14.0
 
 tests:
   - python:
