@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.6"
+  version: "0.1.7"
 
 package:
   name: fps-file-watcher
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fps-file-watcher/fps_file_watcher-${{ version }}.tar.gz
-  sha256: 2f3c70b43af24c36420c893ce6e8230ae4a4757748a6c60963fe8838b77a1ad0
+  sha256: 05a40b293099b524bbe6a51a86219fcc4f3bf8e74666917843bd03b0c1571cf1
 
 build:
   number: 0
