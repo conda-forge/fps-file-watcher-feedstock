@@ -24,8 +24,11 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - watchfiles >=1.0.4,<2.0.0
-    - jupyverse-api >=0.14.0,<0.15.0
+    - anyio
+    - fps
+    - jupyverse-file-watcher >=0.1.0,<0.2.0
+    - structlog
+    - watchfiles >=1.0.4,<2
 
 tests:
   - python:
